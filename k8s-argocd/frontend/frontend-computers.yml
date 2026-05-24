@@ -1,7 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-metadata:We’ve detected the file has mixed line endings. When you commit changes we will normalize them to Windows-style(CRLF).
-
+metadata:
   name: frontend-computers
   namespace: argocd
 spec:
