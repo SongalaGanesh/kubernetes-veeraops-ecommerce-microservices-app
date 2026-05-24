@@ -1,12 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-metadata:
+metadata:We’ve detected the file has mixed line endings. When you commit changes we will normalize them to Windows-style(CRLF).
+
   name: frontend-computers
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/CloudTechDevOps/kubernetes-veeraops-ecommerce-microservices-app.git
+    repoURL:https://github.com/SongalaGanesh/kubernetes-veeraops-ecommerce-microservices-app.git
     path: frontend/computers
     targetRevision: main
   destination:
