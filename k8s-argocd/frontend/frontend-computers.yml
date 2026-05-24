@@ -7,7 +7,7 @@ metadata:We’ve detected the file has mixed line endings. When you commit chang
 spec:
   project: default
   source:
-    repoURL:https://github.com/SongalaGanesh/kubernetes-veeraops-ecommerce-microservices-app.git
+    repoURL: https://github.com/SongalaGanesh/kubernetes-veeraops-ecommerce-microservices-app.git
     path: frontend/computers
     targetRevision: main
   destination:
